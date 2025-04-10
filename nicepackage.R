@@ -2,6 +2,17 @@
 # This script creates a new R package with RcppArmadillo
 #######################################################
 
+# STEP 0: You must have a C++ compiler and RcppArmadillo installed
+#######################################################
+# Follow the instructions from Section 1.3. by Eddelbuettel & François (2023)
+# https://cran.r-project.org/web/packages/Rcpp/vignettes/Rcpp-FAQ.pdf
+# In short, 
+# for Windows: install RTools: https://cran.r-project.org/bin/windows/Rtools/ 
+# for macOS: install Xcode Command Line Tools: https://www.freecodecamp.org/news/install-xcode-command-line-tools/
+# and for Linux: install the standard development packages.
+# Install RcppArmadillo package:
+install.packages("RcppArmadillo")
+
 # STEP 1: preliminaries
 #######################################################
 # Put file nicepackage.R in the same folder
